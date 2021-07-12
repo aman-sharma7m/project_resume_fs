@@ -2,12 +2,54 @@ body{
 	margin: 0px;
 }
 
+/*body header image*/
 #body-header{
 	/*<!-- adding header background image -->*/
 	height: 65vh;
 	opacity: 0.8;
-	background-image:url(images/tech.jpg);
+	background-image:url(images/bot-picture.jfif);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+}
+
+/*main name*/
+#name{
+	font-family: serif;
+	font-size: 70px;
+	color:#deff2c;
+	font-weight: 800;
+}
+
+
+/*header-naviagation lists*/
+.horizontal-list{
+	list-style: none;
+	padding: 0px;
+}
+
+/*make list inline horizontal*/
+.horizontal-list li{
+	display: inline-block;
+	margin: 0px 8px 8px 0px;
+}
+
+/*remove a tag details*/
+.horizontal-list li a{
+	color: white;
+	text-decoration: none;
+
+	/*slow changes*/
+	transition: color 0.5s , border-bottom 4s ;
+}
+
+/*hovering the nav list*/
+.horizontal-list li a:hover{
+	color: red;
+	border-bottom: 3px solid white;
+}
+
+/*all text to center*/
+.text-center{
+	text-align: center;
 }
