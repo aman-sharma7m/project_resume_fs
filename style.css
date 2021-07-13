@@ -89,3 +89,33 @@ body{
 	/*explore*/
 	transition: box-shadow 0.5s , color 0.5s ;
 }
+
+
+
+/*about section*/
+#about{
+	height: 65vh;
+	text-align: center;
+}
+
+#my-image img{
+	height: 25%;
+	width: 15%;
+	border-radius: 100%;
+	transform: translate(0%,-50%);
+	margin: 0px;
+	padding: 0px;
+}
+
+#desc{
+	font-family: cursive;
+	font-size: 0.95rem;
+	font-weight: 10;
+	transform: translate(0%,-50%);
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+/*about section*/
