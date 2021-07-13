@@ -94,26 +94,35 @@ body{
 
 /*about section*/
 #about{
-	height: 65vh;
-	text-align: center;
+	/*height: 65vh;*/
+	height: auto;
+	width: 100%;
+	/*text-align: center;*/
+	position: relative;
 }
 
+#my-image{
+	height: 13rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -12vh;
+}
 #my-image img{
-	height: 25%;
-	width: 15%;
+	/*height: 25%;*/
+	height: 100%;
+	/*width: 15%;*/
+	width: 100%;
 	border-radius: 100%;
-	transform: translate(0%,-50%);
-	margin: 0px;
-	padding: 0px;
+	/*transform: translate(0%,-50%);*/
 }
 
 #desc{
 	font-family: cursive;
 	font-size: 0.95rem;
 	font-weight: 10;
-	transform: translate(0%,-50%);
-	margin: 0px;
-	padding: 0px;
+	/*transform: translate(0%,-50%);*/
+	margin-top: 20px;
+	/*padding: 10px;*/
 
 }
 
