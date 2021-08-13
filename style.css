@@ -253,7 +253,7 @@ div span{
 
 .timeline-box{
 	position: relative;
-	margin: 10px;
+	margin: 5px;
 	width: 40%;
 	left: 2%;
 	min-height: 150px;
@@ -265,6 +265,15 @@ div span{
 
 }
 
+.divide{
+	postion: absolute;
+	height: 75%;
+	width: 1%;
+	border: 3px dashed green;
+	top: 10%;
+	left: 70%;
+
+}
 /*Experience end*/
 
 
