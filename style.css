@@ -246,14 +246,14 @@ div span{
 /*timeline*/
 #timeline{
 	position: relative;
-	width: 75%;
+	width: 85%;
 	border: 2px solid green ;
 	margin-top: -10px;
 }
 
 .timeline-box{
 	position: relative;
-	margin: 5px;
+	margin: 20px 5px;
 	width: 40%;
 	left: 2%;
 	min-height: 150px;
@@ -261,17 +261,17 @@ div span{
 }
 
 .timeline-box:nth-child(2n){
-	left: 53%;
+	left: 55%;
 
 }
 
 .divide{
-	postion: absolute;
-	height: 75%;
-	width: 1%;
-	border: 3px dashed green;
-	top: 10%;
-	left: 70%;
+	position: absolute;
+	width: 1.2px;
+	border: 2px dashed green;
+	top: 5%;
+	left: 48%;
+	height: 90%;
 
 }
 /*Experience end*/
