@@ -260,10 +260,37 @@ div span{
 	border: 1px solid red;
 }
 
+
+
 .timeline-box:nth-child(2n){
 	left: 55%;
 
 }
+
+.timeline-box:nth-child(2n+1):after{
+	content: '';
+	position: absolute;
+	top: 33%;
+	right:-15%;
+	width:0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: orangered;
+	z-index: 1;
+}
+
+.timeline-box:nth-child(2n):after{
+	content: '';
+	position: absolute;
+	top: 33%;
+	left:-21%;
+	width:0.5rem;
+	height: 0.5rem;
+	border-radius: 50%;
+	background-color: white;
+	z-index: 1;
+}
+
 
 .divide{
 	position: absolute;
