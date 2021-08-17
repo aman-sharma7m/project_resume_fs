@@ -164,11 +164,12 @@ section{
 
 .skills-display{
 	width: 80%;
-	/*border: 1px solid gold;*/
+	/* border: 1px solid gold; */
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: space-around;
+	margin-bottom: 20px;
 	/*align-items: center; */
 }
 
@@ -182,7 +183,7 @@ section{
 .skill-progress:hover{
 	box-shadow: 0px 0px 6px 4px white;
 	/*explore*/
-	transition: box-shadow 0.5s;
+	transition: box-shadow 0.2s;
 }
 
 div span{
@@ -229,14 +230,16 @@ div span{
 
 #ml{
 	background-color: darkcyan;
-	width: 75%;
+	width: 65%;
+	overflow-wrap: break-word;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
+	text-align: center;
 }
 
 #javascript{
 	background-color: #baba0c;
-	width: 10%;
+	width: 50%;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 }
@@ -249,6 +252,7 @@ div span{
 	width: 85%;
 	border: 2px solid green ;
 	margin-top: -10px;
+	margin-bottom: 20px;
 }
 
 .timeline-box{
@@ -298,7 +302,7 @@ div span{
 	border: 1px solid green;
 	top: 5%;
 	left: 48%;
-	height: 90%;
+	height: 86%;
 	padding: 0px;
 	margin: 0px;
 
@@ -311,6 +315,13 @@ div span{
 }
 
 /*Experience end*/
+
+/* Education start */
+
+
+
+
+/* Education end */
 
 
 
