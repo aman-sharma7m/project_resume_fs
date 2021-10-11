@@ -194,7 +194,7 @@ div span{
 
 #cpp{
 	background-color: darkblue;
-	width: 60%;
+	width: 80%;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 }
@@ -216,6 +216,7 @@ div span{
 
 #html{
 	background-color: orangered;
+	height: 100%;
 	width: 60%;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
@@ -231,7 +232,7 @@ div span{
 #ml{
 	background-color: darkcyan;
 	width: 65%;
-	overflow-wrap: break-word;
+	/* overflow-wrap: break-word; */
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 	text-align: center;
@@ -240,6 +241,7 @@ div span{
 #javascript{
 	background-color: #baba0c;
 	width: 50%;
+	height: 100%;
 	border-top-left-radius: 25px;
 	border-bottom-left-radius: 25px;
 }
